@@ -1,0 +1,109 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins';
+}
+body a{
+  color:#16ff01;
+  text-decoration: none;
+}
+.login-form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 540px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.47);
+    margin-top: 45px;
+    background: #fff;
+}
+.welcome-text p {
+    font-size: 13px;
+}
+.left-section{
+  width: 450px;
+  height: 540px;
+  float:left;
+}
+.right-section {
+    width: 550px;
+    position: relative;
+    height: 100vh;
+    float: right;
+    background-image: url(img.png);
+    background-size: cover;
+    background-position: 570px 0px;
+    object-fit: cover;
+}
+.welcome-text {
+    position: absolute;
+    max-width: 290px;
+    text-align: center;
+    top: 50%;
+    right: 50px;
+    color: #fff;
+    transform: translateY(-50%);
+}
+.title {
+    text-align: center;
+    margin-top: 80px;
+    color: #292929;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.form {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form input[type=text] {
+    width: 300px;
+    padding: 14px 12px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: 0px 0px 42px #d4d4d4;
+}
+span.floatleft {
+    font-size: 13px;
+    float: left;
+}
+span.floatright {
+    font-size: 13px;
+    float: right;
+}
+.form input[type="submit"] {
+    display: inline-block;
+    border: none;
+    width: 170px;
+    padding: 11px;
+    background: #5ed229;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 20px 0px;
+    transition: 0.3s all ease-in-out;
+}
+.form input[type="submit"]:focus {
+  outline: none;
+}
+.form input[type="submit"]:hover {
+  background: #111;
+}
+.create-account {
+    font-weight: 500;
+    font-size: 14px;
+    color: #424242;
+    margin-top: 10px;
+}
